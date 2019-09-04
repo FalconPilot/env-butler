@@ -1,0 +1,31 @@
+{
+  "name": "env-butler",
+  "version": "0.1.0",
+  "description": "Manage your env, zero fault allowed",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FalconPilot/env-butler.git"
+  },
+  "keywords": [
+    "env"
+  ],
+  "author": "falconpilot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FalconPilot/env-butler/issues"
+  },
+  "homepage": "https://github.com/FalconPilot/env-butler#readme",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "ts-node": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/minimist": "^1.2.0",
+    "@types/node": "^12.7.4"
+  }
+}
